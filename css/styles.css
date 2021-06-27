@@ -3,7 +3,7 @@
 body {
     margin: 0px;
     padding: 0px;
-    background-image: url(../images/pizza6.jpg);
+    background-image: url(../images/logo.jpg);
     background-attachment: fixed;
     background-size: cover;
 }
@@ -29,4 +29,23 @@ a {
 
 .navigation-content {
     height: 60px;
+    display: flex;
+    align-items: right;
+    justify-content: space-between;
+    margin: 0px 12%;
+}
+
+.menu ul {
+    display: flex;
+}
+
+.menu ul li a {
+    padding: 0px 30px;
+    font-family: calibri;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+.cart {
+    display
 }
