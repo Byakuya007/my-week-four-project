@@ -126,6 +126,12 @@ a {
     background-image: url(../images/pizza4.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 540px;
+    height: 150px;
 }
 
 .search p {
@@ -146,4 +152,22 @@ a {
     justify-content: space-around;
     align-items: center;
     box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+}
+
+.text input [type=search] {
+    border: none;
+    background-color: transparent;
+    color: black;
+    align-items: center;
+    outline: none;
+}
+
+text button {
+    height: 35px;
+    width: 100px;
+    border: none;
+    color: #0b0b0b;
+    font-weight: bold;
+    outline: none;
+    border-radius: 0px 20px 20px 0px;
 }
