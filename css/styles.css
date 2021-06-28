@@ -186,3 +186,34 @@ a {
     text-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1);
     color: white;
 }
+
+.food-1,
+.food-2,
+.food-3 {
+    width: 354px;
+    height: 350px;
+    margin: 10px;
+    background-color: #b1b1b1;
+}
+
+.second-row {
+    display: flex;
+}
+
+.food-1 {
+    background-image: url(../images/pizza1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.food-2 {
+    background-image: url(../images/pizza3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.food-3 {
+    background-image: url(../images/pizza5.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
