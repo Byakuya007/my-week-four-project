@@ -127,3 +127,25 @@ a {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.search p {
+    color: #FFFFFF;
+    font-family: Calibri;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 0px;
+    text-shadow: 2px 2px 12px rgba(0, 0, 0, 0.5);
+}
+
+.text {
+    background-color: #f1f1f1;
+    border-radius: 20px;
+    width: 250px;
+    height: 35px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+}
+
+.text input {}
