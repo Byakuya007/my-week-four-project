@@ -193,7 +193,32 @@ a {
     width: 354px;
     height: 350px;
     margin: 10px;
-    background-color: #b1b1b1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 30px 5%;
+    text-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+}
+
+.food-1 p,
+.food-2 p,
+.food-3 p {
+    margin: 0px;
+    padding: 0px;
+    font-size: 30px;
+    color: #FFFFFF;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 40px;
+}
+
+.name p:nth-child(1) {
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.name p:nth-child(2) {
+    font-weight: bold;
+    font-size: 30px;
 }
 
 .second-row {
@@ -216,4 +241,20 @@ a {
     background-image: url(../images/pizza5.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+.price button {
+    color: #FFFFFF;
+    border: none;
+    background-color: #ea272d;
+    outline: none;
+    height: 35px;
+    width: 70px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+}
+
+button:active {
+    transform: scale(1.2);
+    transition: all ease 0.5s;
 }
