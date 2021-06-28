@@ -158,16 +158,17 @@ a {
     border: none;
     background-color: transparent;
     color: black;
-    align-items: center;
+    text-align: center;
     outline: none;
 }
 
-text button {
+.text button {
     height: 35px;
-    width: 100px;
+    width: 70px;
     border: none;
     color: #0b0b0b;
     font-weight: bold;
     outline: none;
     border-radius: 0px 20px 20px 0px;
+    border-left: 1px solid #cdcaca;
 }
