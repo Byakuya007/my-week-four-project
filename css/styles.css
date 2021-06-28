@@ -91,7 +91,6 @@ a {
     outline: none;
 }
 
-.search,
 .order {
     width: 540px;
     height: 150px;
@@ -116,6 +115,7 @@ a {
     align-items: center;
 }
 
+.search,
 .order {
     background-image: url(../images/pizza2.jpg);
     background-repeat: no-repeat;
@@ -146,12 +146,4 @@ a {
     justify-content: space-around;
     align-items: center;
     box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
-}
-
-.text input [type=search] {
-    border: none;
-    background-color: transparent;
-    color: black;
-    align-items: center;
-    outline: none;
 }
