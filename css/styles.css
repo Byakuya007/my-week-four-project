@@ -76,3 +76,34 @@ a {
     font-size: 30px;
     font-family: myriad pro;
 }
+
+.new button {
+    width: 120px;
+    height: 35px;
+    border-radius: 10px;
+    background-color: #ea272d;
+    text-align: center;
+    font-weight: 400;
+    font-family: calibri;
+    color: #FFFFFF;
+    border: none;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+    outline: none;
+}
+
+.search,
+.order {
+    width: 540px;
+    height: 150px;
+    margin: 10px;
+    background-color: #b1b1b1;
+}
+
+.tools {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.first-row {}
