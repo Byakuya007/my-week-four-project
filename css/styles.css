@@ -309,3 +309,25 @@ button:active {
     padding: 0px;
     line-height: 40px;
 }
+
+.footer {
+    background-color: #0a0a0a;
+    height: 50px;
+}
+
+.social ul {
+    display: flex;
+}
+
+.social img {
+    height: 15px;
+}
+
+.social ul l a {
+    padding: 15px;
+}
+
+.footer-menu ul li a {
+    border-left: 3px solid #2e2e2e;
+    color: rgba(255, 255, 255 0.8);
+}
