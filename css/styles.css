@@ -3,7 +3,7 @@
 body {
     margin: 0px;
     padding: 0px;
-    background-image: url(../images/logo.jpg);
+    background-image: url(../images/cartoon\ pizza.jpg);
     background-attachment: fixed;
     background-size: cover;
 }
@@ -123,7 +123,7 @@ a {
 }
 
 .search {
-    background-image: url(../images/pizza5.jpg);
+    background-image: url(../images/pizza4.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -148,4 +148,10 @@ a {
     box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
 }
 
-.text input {}
+.text input [type=search] {
+    border: none;
+    background-color: transparent;
+    color: black;
+    align-items: center;
+    outline: none;
+}
