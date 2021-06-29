@@ -140,56 +140,51 @@ Display.prototype.addPizza = function(pizza) {
     div.classList.add('col-11', 'mx-auto', 'col-md-6', 'my-3', 'col-lg-8');
 
 
-    div.innerHTML = ` <table class="table table-dark  ">
-  <thead class="">
+    div.innerHTML = ` <table class="table table-dark">
+   <thead class="">
     <tr>
-      
       <th scope="col">Title</th>
       <th scope="col">Order</th>
       <th scope="col">Price</th>
-    </tr>
+     </tr>
   </thead>
-  <tbody>
-      
+  <tbody>  
     <tr>
       <td>Size</td>
       <td>${pizza.size}</td>
       <td>$ ${sizePrice}</td>
     </tr>
+    
     <tr>
-  
       <td>Crust</td>
       <td>${pizza.crust}</td>
       <td>$ ${crustPrice}</td>
     </tr>
+   
     <tr>
-  
       <td>Toppings</td>
       <td>${pizza.toppings}</td>
       <td>$ ${toppingsPrice}</td>
     </tr>
     <tr>
-  
       <td>Num Pizzas</td>
       <td>${pizza.numPizzas}</td>
       <td>-</td>
     </tr>
+   
     <tr>
-  
       <td>Delivery</td>
       <td>${pizza.delivery}</td>
       <td>$ ${deliveryPrice}</td>
     </tr>
     
     <tr>
-  
       <td>Total</td>
       <td></td>
       <td>$<span id="card-total-price"> ${totalPrice}</span></td>
     </tr>
-    <tr>
       
-  </tbody>
+</tbody>
 </table>`;
 
 
