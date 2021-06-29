@@ -3,7 +3,7 @@
 body {
     margin: 0px;
     padding: 0px;
-    background-image: url(../images/cartoon\ pizza.jpg);
+    background-color: seashell;
     background-attachment: fixed;
     background-size: cover;
 }
