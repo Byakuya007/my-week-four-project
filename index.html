@@ -83,97 +83,155 @@
             </div>
         </div>
 
-        <div class="form-text">
-            <h1>Pizza Order Form</h1>
-            <form name="order">
+        <div class="container p-5">
+            <div class="row d-flex justify-content-center my-5">
+                <div class="col-lg-10  px-5 pt-5 form-section">
 
-                <b>Coustomer Name</b> <input type="text" size="30" />
-                <b>Phone Number</b> <input type="text" size="30" /><br>
-                <table align="center">
-                    <tr>
-                        <th>Pizza Image</th>
-                        <th>Pizza Choice</th>
-                        <th>Quantity</th>
-                        <th>Unit Price</th>
-                        <th>Total Price</th>
-                    </tr>
-                    <tr>
-                        <td> <img src="images/pizza1.jpg" width="200"> </td>
-                        <td><input type="checkbox" value="Lager Italy"></input>Large </td>
-                        <td><input type="text" size="10"></input>
-                        </td>
-                        <td><input type="text" value="1000.00" readonly size="10"></input>
-                        </td>
-                        <td><input type="text" size="10" disabled> </td>
-                    </tr>
+                    <div class="feedback text-center text-capitalize">
 
-                    <tr>
-                        <td> <img src="images/pizza3.jpg" width="200"> </td>
-                        <td><input type="checkbox" value="Veggie"></input>Small </td>
-                        <td><input type="text" size="10"></input>
-                        </td>
-                        <td><input type="text" value="1000.00" readonly size="10"></input>
-                        </td>
-                        <td><input type="text" size="10" disabled> </td>
-                    </tr>
+                    </div>
+                    <h4 class="text-center"> Make your order</h4>
+                    <form name="pizzaForm" action="" id='pizzaForm' method="get">
+                        <div class="form-row">
+                            <div class="col-lg-12">
+                                <label for="size">Enter Pizza Size</label>
+                                <select name="size" id="pizzaSize" class="form-select form-select-lg my-3 p-4" aria-label=".form-select-lg example">
+                                  <option selected></option>
+                                  <option value="large">Large</option>
+                                  <option value="medium">Medium</option>
+                                  <option value="small">small</option>
+                              </select>
+                            </div>
+                        </div>
 
+                        <div class="form-row">
+                            <div class="col-lg-12">
+                                <label for="crust">Enter Crust Type</label>
+                                <select name="crust" id="pizzaCrust" class="form-select form-select-lg my-3 p-4" aria-label=".form-select-lg example">
+                                <option selected></option>
+                                <option value="crispy">Crispy</option>
+                                <option value="stuffed">Stuffed</option>
+                                <option value="glutten Free">Glutten Free</option>
+                            </select>
+                            </div>
+                        </div>
 
 
-                </table>
-            </form>
+                        <div class="form-row">
+                            <div class="col-lg-12">
+                                <label for="crust">Enter Toppings</label>
+                                <select name="toppings" id="pizzaToppings" class="form-select form-select-lg my-3 p-4" aria-label=".form-select-lg example">
+                              <option selected></option>
+                              <option value="onions">Onions</option>
+                              <option value="tomatoes">Tomatoes</option>
+                              <option value="mushrooms">Mushrooms</option>
+                              <option value="olives">Olives</option>
+                              <option value="bacon">Bacon</option>
+                              <option value="sausage">Sausage</option>
+                              <option value="chicken">Chicken</option>
+                              <option value="beef">Beef</option>
+    
+                              
+                          </select>
+                            </div>
+                        </div>
 
-        </div>
+                        <div class="form-row">
+                            <div class="col-lg-12">
+                                <label for="crust">Enter No Of Pizzas</label>
+                                <input type="number" name="numPizzas" id="numPizzas" placeholder="" class="form-control my-3 p-4">
+                            </div>
+                        </div>
 
-    </div>
-    </div>
+                        <div class="form-row">
+                            <div class="col-lg-12">
+                                <label for="crust">Enter Delivery Option</label>
+                                <select name="delivery" id="delivery" class="form-select form-select-lg my-3 p-4" aria-label=".form-select-lg example">
+                          <option selected></option>
+                          <option value="no delivery">No Delivery</option>
+                          <option value="yes delivery">Yes Delivery</option>
+                         
+                      </select>
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="col-lg-12 mb-5">
+                                <button type="submit" id="btnSubmit" class=" btn btn-lg btn1">SUBMIT</button>
+
+
+                            </div>
+
+
+                        </div>
+                </div>
+
+                </form>
 
 
 
 
-    <div class="third-row">
-        <div class="flavor">
-            <p>FLAVOUR MENU</p>
-            <p>TOPPINGS AND HAND CHIPS</p>
-        </div>
-        <div class="breakfast">
-            <p>BREAKFAST MENU</p>
-            <P>ROLLS</P>
-        </div>
-    </div>
-    </div>
-    <div class="footer">
-        <div class="navigation-content">
-            <div class="menu footer-menu">
-                <ul>
-                    <li><a href="#">MENU</a></li>
-                    <li><a href="#">BEST DEALS</a></li>
-                    <li><a href="#">ONLINE ORDER</a></li>
-                </ul>
+                <div class="row">
+
+                </div>
+
+                <div class="row" id="pizzas-list">
+
+                </div>
+                <div class="row" id="pizzas-total">
+
+                    <div class="col-lg-8 col-md-8 text-center">
+                        <h1> Your Bill Is : Ksh<span class="total-price"></span></h1>
+                    </div>
+
+                </div>
+
 
             </div>
-
-            <div class="social">
-                <ul>
-                    <li>
-                        <a href="#"><img src="images/facebook.png"></a>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#"><img src="images/twitter.png"></a>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#"><img src="images/you_tube.png"></a>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-
-
         </div>
-    </div>
+        </section>
 
-    </div>
+        <div class="third-row">
+            <div class="flavor">
+                <p>FLAVOUR MENU</p>
+                <p>TOPPINGS AND HAND CHIPS</p>
+            </div>
+            <div class="breakfast">
+                <p>BREAKFAST MENU</p>
+                <P>ROLLS</P>
+            </div>
+        </div>
+
+        <div class="footer">
+            <div class="navigation-content">
+                <div class="menu footer-menu">
+                    <ul>
+                        <li><a href="#">MENU</a></li>
+                        <li><a href="#">BEST DEALS</a></li>
+                        <li><a href="#">ONLINE ORDER</a></li>
+                    </ul>
+
+                </div>
+
+                <div class="social">
+                    <ul>
+                        <li>
+                            <a href="#"><img src="images/facebook.png"></a>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="images/twitter.png"></a>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="images/you_tube.png"></a>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <script src="js/den.js"></script>
 </body>
 
 </html>
