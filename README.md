@@ -4,6 +4,8 @@
 
 #### By **{List of contributors}**
  [Dennis Collins](https://github.com/Byakuya007)
+
+
 ## Description
 {This is an application that opens up all of Pizza App and works well in all devices }
 
